@@ -36,8 +36,13 @@ public class TestGreeter {
   }
 
   @Test
-  public void failTheTestCase() {
+  public void PassTheTestCase() {
     assertTrue(true);
+  }
+
+  @Test
+  public void failTheTestCase() {
+    assertTrue(false);
   }
 
     @Test
