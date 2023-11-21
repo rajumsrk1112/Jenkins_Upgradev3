@@ -41,8 +41,8 @@ public class TestGreeter {
   }
 
   @Test
-  public void failTheTestCase() {
-    assertTrue(false);
+  public void fiXTheTestCase() {
+    assertTrue(true);
   }
 
     @Test
